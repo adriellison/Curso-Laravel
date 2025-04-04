@@ -18,5 +18,9 @@
     @for($i = 0; $i < count($arr); $i++)
         <p>{{ $arr[$i] }} - {{ $i}}</p>
     @endfor
+
+    @foreach($nomes as $nome)
+        <p>{{ $nome }}</p>
+    @endforeach
 </body>
 </html>
