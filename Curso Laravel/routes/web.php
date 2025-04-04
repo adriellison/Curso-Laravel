@@ -28,3 +28,7 @@ Route::get('/curso', function () {
         'nomes' => $nomes
     ]);
 });
+
+Route::get('/produtos', function () {
+    return view('produtos');
+});
